@@ -4,6 +4,6 @@ import math
 c1 = float(input('Qual o valor do primeiro cateto?'))
 c2 = float(input('Qual o valor do segundo cateto?'))
 
-r = math.sqrt(c1**2 + c2**2)
+r = math.hypot(c1, c2)
 
 print(f' O comprimento da hipotenusa será {r:.2f}')

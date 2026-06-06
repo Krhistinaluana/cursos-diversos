@@ -2,4 +2,4 @@
 
 import playsound
 
-playsound.playsound (r'C:\Users\Nutricionista Luana\Documents\MeusProjetos\cursos-diversos\Python-curso-em-video\modulo-01/som aula 08- exerc 21.mp3')
+playsound.playsound (r'C:\Users\Nutricionista Luana\Documents\MeusProjetos\cursos-diversos\Python-curso-em-video\modulo-01/audiopapkin-sound-design-elements-sfx-ps-022-302865.mp3')

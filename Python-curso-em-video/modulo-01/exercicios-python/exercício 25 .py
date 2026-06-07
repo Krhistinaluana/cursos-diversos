@@ -1,6 +1,6 @@
 #Crie um programa que leia o nome de uma pessoa e diga se ela tem "SILVA" no nome.
 
-nome = input('Digite seu nome completo:')
-verificacao = 'Silva' in nome
+nome = str(input('Digite seu nome completo:')) .strip()
+verificacao = 'silva' in nome .lower()
 
-print(verificacao)
+print(f'Seu nome tem Silva: {verificacao}')

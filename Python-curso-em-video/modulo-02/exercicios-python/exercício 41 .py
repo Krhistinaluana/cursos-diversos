@@ -7,13 +7,15 @@ ano_Nasc = int(input('Para descobrir qual é a sua categoria, digite o ano em qu
 ano_Atual = date.today().year
 idade = abs(ano_Nasc - ano_Atual)
 
+print(f'O atleta tem {idade} anos.')
+
 if idade <= 9:
     print('Categoria: MIRIM')
 elif idade <= 14:
     print('Categoria: INFANTIL')
 elif idade <= 19:
     print('Categoria: JUNIOR')
-elif idade <= 20:
+elif idade <= 25:
     print('Categoria: SÊNIOR')
 else:
     print('Categoria: MASTER')

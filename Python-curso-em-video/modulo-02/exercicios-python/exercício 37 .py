@@ -11,4 +11,4 @@ elif base_Conv ==2:
 else:
     escolha = hex(numero)
 
-print(f'O número {numero} convertido ficará {escolha}')
+print(f'O número {numero} convertido ficará {escolha[2:]}')

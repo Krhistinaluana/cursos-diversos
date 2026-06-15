@@ -3,11 +3,11 @@
 print('=='*10)
 print(' CALCULANDO SEU IMC')
 print('=='*10)
-peso = float(input('Digite seu peso: '))
-altura = float(input('Digite sua altura: '))
+peso = float(input('Digite seu peso: (kg) '))
+altura = float(input('Digite sua altura: (m) '))
 
-imc = peso / altura**2
-print(f'Seu imc é: {imc:.2f}')
+imc = peso / (altura**2)
+print(f'Seu imc é: {imc:.1f}')
 if (imc < 18.5):
     print('Você está ABAIXO DO PESO')
 elif (imc < 25):

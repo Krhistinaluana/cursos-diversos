@@ -8,12 +8,12 @@ reta2 = float(input('Segundo segmento: '))
 reta3 = float(input('Terceiro segmento: '))
 
 if (reta1+reta2) > reta3 and (reta1+reta3) > reta2 and (reta2+reta3) > reta1:
-    print('É possível formar um triângulo')
+    print('É possível formar um triângulo: ', end='')
     if (reta1 == reta2 == reta3):
-        print('Você terá um triângulo: Equilátero')
+        print('Equilátero!')
     elif (reta1 == reta2 != reta3) or (reta1 == reta3 != reta2) or (reta2 == reta3 != reta1):
-        print('Você terá um triângulo: Isósceles')
+        print('Isósceles!')
     else:
-        print('Você terá um triângulo: Escaleno')
+        print('Escaleno!')
 else:
     print('Não é possível formar um triângulo.')

@@ -1,10 +1,10 @@
 #Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80km/h, mostre uma mensagem dizendo que ele foi multado; A multa vai custar R$7.00 por cada km acima do limite.
 
-velocidade = float(input('Qual a velocidade que o carro de encontra?'))
+velocidade = float(input('Qual é a velocidade atual do carro? '))
 
 if (velocidade > 80) :
-    multa = (velocidade - 80) * 7
-    print(f'Você foi multado e o valor da multa  sera R$ {multa:.2f}')
+    multa = (velocidade-80) * 7
+    print(f'MULTADO! Você excedeu o limite permitido que é 80km/h e o valor da multa  será R$ {multa:.2f}')
 else:
     print('Parabéns, você esta dentro da velocidade recomendada.')
 

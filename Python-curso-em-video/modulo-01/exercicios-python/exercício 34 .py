@@ -1,15 +1,13 @@
 #Escreva um programa que pergunte o salário de um funcionário e calculo o valor do seu aumento. Para salários superiores a R$1250.00, calculo um aumento de 10%. Para os inferiores ou iguais , o aumento é de 15%.
 
-salario = float(input('Qual é o seu salário:'))
+salario = float(input('Qual é o seu salário: '))
 
 if (salario <= 1250):
-    percentual = 15
+    novo = salario + (salario * 15 / 100)
 else:
-    percentual = 10
+    novo = salario + (salario * 10 / 100)
 
-aumentoSalario = (percentual * salario) / 100
-salarioTotal = salario + aumentoSalario
 
-print(f'Você terá um aumento de {percentual}% equivalente a R$ {aumentoSalario:.2f} totalizando, R$ {salarioTotal:.2f}')
+print(f'Seu salário de R$ {salario:.2f} passa a ser R$ {novo:.2f}')
 
     

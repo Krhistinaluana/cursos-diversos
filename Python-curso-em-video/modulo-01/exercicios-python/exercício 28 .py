@@ -3,10 +3,12 @@
 
 import random
 n = random.randint(0,5)
-print('.........SORTEANDO.........')
-tentativa = int(input('Tente descobrir qual número foi sorteado? (entre 0 e 5)'))
+print('...'*20)
+print('Vou sortear um número entre 0 e 5: tente adivinhar..')
+print('...'*20)
+tentativa = int(input('Tente descobrir qual número foi sorteado? '))
 
 if (tentativa == n):
     print('Parabéns, você acertou!')
 else:
-    print('Haaaá não, você errou. Não foi dessa vez!')
+    print('Haaaá não, você errou.')

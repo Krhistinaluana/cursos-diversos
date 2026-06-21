@@ -9,4 +9,4 @@ r = int(input('Qual será a razão da progressão? '))
 
 for c in range(0, 10):
     termo = i + (c*r)
-    print(termo)
+    print(termo, end=' -> ')

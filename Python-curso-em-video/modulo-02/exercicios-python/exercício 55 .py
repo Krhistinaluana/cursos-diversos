@@ -4,7 +4,7 @@
 maiorP = 0
 menorP = float('inf')
 for c in range(1,6):
-    peso = int(input(f'Digite o peso da {c}º pessoa (kg): '))
+    peso = float(input(f'Digite o peso da {c}º pessoa (kg): '))
     if peso > maiorP:
         maiorP = peso
     if peso < menorP:

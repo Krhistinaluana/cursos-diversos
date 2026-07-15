@@ -7,13 +7,13 @@ print('='*20)
 
 vitoriaJogador = 0
 vitoriaPc = 0
-
+escolha = ' '
 while True:
     escolha = str(input('Par ou Ímpar? ')) .strip() .upper() [0]
     n = int(input('Digite sua jogada? '))
 
     numeroPc = random.randint(1,10)
-    print(f'Meu número é {numeroPc}')
+    print(f'Você jogou {n} e o computador {numeroPc}')
 
     soma = n + numeroPc
     if soma % 2 == 0 and escolha == 'P':

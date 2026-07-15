@@ -5,4 +5,13 @@ print('-='*20)
 
 valorSacado = int(input('Qual valor será sacado? '))
 
+notas50 = valorSacado // 50
+resto50 = valorSacado % 50
+notas20 = resto50  // 20
+resto20 = resto50 % 20 
+notas10 = resto20 // 10
+resto10 = resto20 % 10
+notas1 = resto10 // 1 
+resto1 = resto10 % 1 
 
+print (f'O valor sacado será {valorSacado}, correpondente à {notas50} notas de R$50, {notas20} notas de R$20, {notas10} notas de R$10 e {notas1} notas de R$1.')

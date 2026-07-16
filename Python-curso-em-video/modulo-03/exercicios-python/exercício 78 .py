@@ -7,4 +7,4 @@ for i in range (0,5):
   guardarLista.append(n)
 
 print(f'O maior valor é {max(guardarLista)}')
-print(f'O menor valor é {min(guardarLista)}')clear
+print(f'O menor valor é {min(guardarLista)}')

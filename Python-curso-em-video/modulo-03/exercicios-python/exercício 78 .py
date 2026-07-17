@@ -2,9 +2,28 @@
 
 
 guardarLista = []
+mai = 0
+men = 0
 for i in range (0,5):
-  n = int(input('Digite um valor: '))
-  guardarLista.append(n)
+  guardarLista.append(int(input(f'Digite um valor na posição {i}: ')))
+  if i == 0:
+      mai = men = guardarLista[i]
+  else:
+      if guardarLista[i] > mai:
+          mai = guardarLista[i]
+      if guardarLista[i] < men:
+          men = guardarLista[i]
 
-print(f'O maior valor é {max(guardarLista)}')
-print(f'O menor valor é {min(guardarLista)}')
+
+print('=-' * 20)
+print(f'Você digitou os valores {guardarLista}')
+print(f'O maior valor digitado foi {mai} nas posições ', end='')
+for c, v in enumerate(guardarLista):
+      if v == mai:
+            print(f'{c}...', end ='')
+print()
+print(f'O menor valor digitado foi {men} nas posições ', end='')
+for c, v in enumerate (guardarLista):
+      if v == men:
+        print(f'{c}...', end='')
+print()

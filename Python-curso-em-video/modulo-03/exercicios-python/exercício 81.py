@@ -15,4 +15,4 @@ while True:
         break
 
 guardarNum.sort(reverse=True)
-print(f'Foram digitados: {len(guardarNum)}números\nA lista ordenada de forma descrecente fica: {guardarNum}\nO valo [5] {guardaNum5} digitado.') 
+print(f'Foram digitados: {len(guardarNum)} elementos\nA lista ordenada de forma descrecente fica: {guardarNum}\nO valo [5] {guardaNum5} digitado.') 

@@ -4,12 +4,14 @@ pessoas = []
 pesos = []
 while True:
     nome = input('Digite o nome: ')
-    peso = int(input('Digite o peso: '))
+    peso = float(input('Digite o peso: '))
     pessoas.append((nome, peso))
     condicao = str(input('Deseja continuar [S/N]: ')) .upper() .strip()
     if condicao == 'N':
         break
 
+print('-='*30)
+print(f'Os dados foram {pessoas}')
 for p in pessoas:
         pesos.append(p[1])
 maiorPeso = max(pesos)

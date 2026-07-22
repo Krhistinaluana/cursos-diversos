@@ -20,4 +20,3 @@ print('-='*20)
 print(f'- Nome é igual: {situacaoAlunos["NomeAluno"]}')
 print(f'- Média é igual: {situacaoAlunos["mediaAluno"]}')
 print(f'- A situação é igual: {situacaoAlunos["situacao"]}')
-

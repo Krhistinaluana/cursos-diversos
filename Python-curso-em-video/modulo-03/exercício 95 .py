@@ -1,1 +1,0 @@
-#Aprimore o desafio 93 para que ele funciona com cários jogadores, incluindo um sistema de visualização de detalhes do aproveitamente de cada jogador.

@@ -6,9 +6,14 @@ while True:
     num = int(input('Digite um número: '))
     if num not in guardaNum:
         guardaNum.append(num)
+        print('Valor adicionado com sucesso...')
+    else:
+        print('Valor duplicado!Não vou adicionar...')
     resposta = str(input('Quer continuar? [S/N] ')) .upper() .strip()
     if resposta == 'N':
         break
+
+print('-='*30)
 guardaNum.sort( )
 print(f'Todos os valores digitados foram: {guardaNum}')
 
